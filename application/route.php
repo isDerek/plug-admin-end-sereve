@@ -11,7 +11,7 @@
 
 
 use think\Route;
-
+Route::get('api/:version/hello','api/:version.user/hello');
 Route::get('api/:version/getUserLogin','api/:version.user/getUserLogin');
 Route::get('api/:version/putUserLogout','api/:version.user/putUserLogout');
 Route::get('api/:version/postUserInfo','api/:version.user/postUserInfo');
